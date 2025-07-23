@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# Build output
+dist/
+Frontend/dist/
+Backend/dist/
+
+# Vite cache
+.vite/
+Frontend/.vite/
+Backend/.vite/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+Frontend/.env
+Backend/.env 
