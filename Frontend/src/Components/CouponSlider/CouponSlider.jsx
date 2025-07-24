@@ -106,7 +106,7 @@ const CouponSlider = () => {
                 <div className="text-orange-500 font-bold text-lg">{coupon.discount}</div>
                 <p className="text-gray-500 text-sm">{coupon.daysLeft}</p>
                 <a
-                  href={`https://wa.me/919715630166?text=${encodeURIComponent(
+                  href={`https://wa.me/919900676161?text=${encodeURIComponent(
                     `Hi, I want to avail the coupon: ${coupon.title} with code: ${coupon.couponCode} (${coupon.discount}). Please assist.`
                   )}`}
                   target="_blank"

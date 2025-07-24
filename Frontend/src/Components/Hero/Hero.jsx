@@ -55,7 +55,7 @@ const Hero = () => {
             placeholder="Enter your phone number"
             className="mt-4 w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-          <button onClick={()=>{window.location.href='https://wa.me/918019908855';}} className="mt-4 w-full bg-blue-600 text-white cursor-pointer font-medium py-3 rounded-lg hover:bg-blue-700 transition">
+          <button onClick={()=>{window.location.href='https://wa.me/919900676161';}} className="mt-4 w-full bg-blue-600 text-white cursor-pointer font-medium py-3 rounded-lg hover:bg-blue-700 transition">
             Continue
           </button>
 

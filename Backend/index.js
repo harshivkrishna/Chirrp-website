@@ -11,12 +11,12 @@ const couponMap = {
 
 // WhatsApp client setup
 const client = new Client({
-  authStrategy: new LocalAuth({ clientId: '9715630166' }) // Ensures session is tied to this number
+  authStrategy: new LocalAuth({ clientId: '9900676161' }) // Ensures session is tied to this number
 });
 
 client.on('qr', (qr) => {
   qrcode.generate(qr, { small: true });
-  console.log('Scan the QR code above with WhatsApp (number: 9715630166)');
+  console.log('Scan the QR code above with WhatsApp (number: +91 99006 76161)');
 });
 
 client.on('ready', () => {
